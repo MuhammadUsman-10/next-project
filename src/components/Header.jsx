@@ -14,12 +14,14 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">My Website</div>
                 <nav className={`flex flex-col md:flex-row  items-center justify-center space-x-4 ${toggleMenu}`}>
-                    <Link href="#" className="text-white">Home</Link>
-                    <Link href="#" className="text-white">About</Link>
-                    <Link href="#" className="text-white">Contact</Link>
+                    <Link href="/" className="text-white">Home</Link>
+                    <Link href="/meals" className="text-white">Meals</Link>
+                    <Link href="/about" className="text-white">About</Link>
+                    <Link href="/community" className="text-white">Community</Link>
+                    <Link href="/contact" className="text-white">Contact</Link>
                 </nav>
                 <div className="md:hidden">
-                    <button className="text-white" onClick={handleClick} >Menu</button>
+                    <button className="text-white" onClick={handleClick} ><i className="fa-solid fa-bars text-white"></i></button>
                 </div>
             </div>
         </header>

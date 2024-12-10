@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css";
+@import "https://kit.fontawesome.com/318e3f9eae.js";
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
