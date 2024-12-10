@@ -13,7 +13,7 @@ const Header = () => {
         <header className="bg-slate-800 p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">My Website</div>
-                <nav className={`flex flex-col md:flex-row  items-center justify-center space-x-4 ${toggleMenu}`}>
+                <nav className={`flex flex-col md:flex-row  items-center justify-center space-x-4`}>
                     <Link href="/" className="text-white">Home</Link>
                     <Link href="/meals" className="text-white">Meals</Link>
                     <Link href="/about" className="text-white">About</Link>
